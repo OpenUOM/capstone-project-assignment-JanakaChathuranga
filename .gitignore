@@ -1,3 +1,42 @@
-node_modules
-./frontend/node_modules
+# dependencies
+node_modules/
+
+# database
 db.sqlite
+
+# build output
+dist/
+/frontend/.angular/
+/frontend/out-tsc/
+
+# test artifacts
+/frontend/screenshots/
+/frontend/.forever/
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment files
+.env
+.env.local
+.env.*.local
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# claude / ai assistant files
+.claude/
+.claude.json
+.claude.local.json
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+.aider*
